@@ -1,42 +1,76 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.id-card {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.text {
+  display: flex;
+  flex-direction: column;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
+.idP {
+  margin: 0;
+}
+
+.box-color {
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 5px;
+  justify-content: center;
+}
+
+.cardlogos {
+  width: 50px;
+  margin-left: 220px;
+  margin-top: 20px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+  
+.bankExp {
+  display: flex;
+  flex-direction: row;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.wholeinfo{
+  margin-left: 30px;
+  margin-bottom: 30px;
+
 }
 
-.card {
-  padding: 2em;
+.cardnum{
+  font-size: 22px;
+  margin-bottom: 10px;
 }
 
-.read-the-docs {
-  color: #888;
+.driverallcard{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(44, 44, 182);
+  border-radius: 20px;
+  padding: 40px;
+}
+
+.drivercard{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.driverimg{
+width: 90px;
+height: 90px;
+border-radius: 100px;
+
+}
+
+.drating{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  align-items: center;
 }
